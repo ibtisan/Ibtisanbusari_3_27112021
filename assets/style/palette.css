@@ -12,43 +12,41 @@ body
 }
 
 h1{
-    font-family: "Roboto" ;
-    font-size: 40px;
+ 
+    font-size: 25px;
     font-weight: 1000;
- }
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 
-.h1
-{
-    font-weight: 1000;
-    font-size: 18px;
-    font-weight: 1000;
 }
+
+
 h2
 {
-    font-family: "shrikhand" ;
+    font-family: "Roboto" ;
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 700;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 }
 
 h3
 {
-    font-family: "Roboto" ;
-    font-size: 25px;
-    font-weight: 1000;
+    font-size: 18px;
+    font-weight: bold;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 }
 
 h4
 {
-    font-family: "roboto" ;
-
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #7c6565;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+
+    
 }
 header{
     display: flex;
@@ -104,6 +102,7 @@ section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 10px;
 
 }
 
@@ -115,7 +114,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 5%;
+    width: 20%;
     background-color: transparent;
     height: auto;
     font-weight: 100;
@@ -138,6 +137,11 @@ section{
 
 .texttype{
     padding-left: 10px;
+}
+.texttype h2{
+    color: #686060;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 @keyframes fadein {
@@ -204,13 +208,18 @@ section{
     line-height: 1.5em;
     padding-left: 0px;
     background-color: white;
+    padding-top: 0px;
+
 }
 .text p{
     margin: 0;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-    font-weight: 200;
+    font-family: "Roboto" ;
+    font-size: 16px;
+    font-weight: 400;
+    color: #686060;
 }
 .texttype{
     margin-top: 20px;
@@ -219,10 +228,14 @@ section{
 
 }
 
+.texttype h2{
+    color: #686060;
+}
+
 .ligne{
     width: 40px;
     border: 2px solid #99E2D0;
-    margin-left: 10px;
+    margin-left: 0px;
 }
 
 
@@ -233,11 +246,14 @@ section{
     justify-content: center;
     align-items: center;
     background-color: #99E2D0;
-    width: 50px;
-    height: 63px;
+    width: 10px;
+    height: 40px;
    border-top-right-radius: 15px;
    position: absolute;
-   padding: 20px;
+   padding-top: 15px;
+   padding-bottom: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
    right: -50px;
    top: 0;
    opacity: 0;
@@ -272,6 +288,10 @@ nav{
     padding-right: 30px;
 }
 
+footer h4{
+    color: white;
+    font-size: 16px;
+}
 
 @media screen and (min-width: 768px)  {
 
@@ -289,6 +309,8 @@ nav{
         transition: 3s
         
     }
+
+    
 
     
 }
