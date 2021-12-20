@@ -83,11 +83,9 @@ h4
 
 @keyframes grow {
     0%, 100% {
-        transform: scaleY(1);
         transform: scaleY(1) ;
     }
     50% {
-        transform: scaleY(1.8);
         transform: scaleY(1.8);
     }
 }
@@ -101,25 +99,7 @@ h4
     }
 }
 
-/**@keyframes grow {
-    0%, 100% {
-        -webkit-transform: scaleY(1);
-        transform: scaleY(1) ;
-    }
-    50% {
-        -webkit-transform: scaleY(1.8);
-        transform: scaleY(1.8);
-    }
-}
 
-@keyframes rotate {
-    from {
-        -webkit-transform: rotate(0deg);
-    }
-    to {
-        -webkit-transform: rotate(360deg);
-    }
-}**/
 
 .loadspin{
     background: linear-gradient(#FFFFFF, #99E2D0, #FF79DA, #9356DC);
@@ -217,6 +197,7 @@ header{
 
 #logo img{
     height: 35px;
+    border-radius: 0px;
 }
 
 main{

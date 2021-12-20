@@ -201,6 +201,7 @@ section{
 .mets:hover .fa-check-circle{
     transform: rotate(360deg);
 }
+
 .text{
     display: flex;
     justify-content: space-between;
@@ -211,6 +212,7 @@ section{
     padding-top: 0px;
 
 }
+
 .text p{
     margin: 0;
     white-space: nowrap;
