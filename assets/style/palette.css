@@ -61,6 +61,7 @@ header{
     justify-content: center;
     flex: 20;
     order: 2;
+    background-color: white;
 }   
 
 #fleche{
@@ -70,6 +71,7 @@ header{
     flex: 2;
     order: 1;
     font-size: 30px;
+    background-color: white;
 }
 
 
@@ -92,6 +94,9 @@ img{
 section{
     margin-top: -40px;
     background-color: #f2f2f2;
+    border-radius: 25px 25px 25px 0px;
+    padding-left: 0px;
+    padding-right: 0px
 }
 .palettecoeur{
     background-color: #f2f2f2;
@@ -99,10 +104,8 @@ section{
     flex-direction: row;
     width: 100%;
     border-radius: 25px 25px 0px 0px;
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    padding-left: 10px;
+    padding-left: 0px;
 
 }
 
@@ -112,12 +115,13 @@ section{
 
 .coeur{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     width: 20%;
     background-color: transparent;
     height: auto;
     font-weight: 100;
+    margin-right: 40px;
 }
 
 
@@ -312,7 +316,13 @@ footer h4{
         
     }
 
-    
+    body{
+        max-width: 1000px;
+        border: 1px solid #f2f2f2;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 
     
 }
